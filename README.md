@@ -4,7 +4,7 @@ The Gridworld problem has been proven to solved for a given task in a limited st
 
 Policies can be optimized using Policy Gradients, which aim to shift policies based on the rewards it receives. A neural network is used to take the state encoding as input and give the action as output based on the policy. The goal of the policy optimization is to maximize the probability of the trajectories that return the highest rewards.
 
-In this project, the <strong>Proximal Policy Optimization (PPO)<\strong> method is applied to the set of training tasks with the goal of learning the optimal policy to transform the pre-grid to the post-grid. The key concept of this technique is to provide a more stable optimization for high order MDPs by making sure the policy updates don't diverge beyond a certain range while at the same time improving the value estimation with every iteration.
+In this project, the <strong>Proximal Policy Optimization (PPO)</strong> method is applied to the set of training tasks with the goal of learning the optimal policy to transform the pre-grid to the post-grid. The key concept of this technique is to provide a more stable optimization for high order MDPs by making sure the policy updates don't diverge beyond a certain range while at the same time improving the value estimation with every iteration.
 
 ## About the code
 
