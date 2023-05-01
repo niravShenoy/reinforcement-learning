@@ -16,15 +16,9 @@ $ python train.py --args
 
 train_bc.py - This contains the LATEST CODE for running the PPO Algorithm.  It Implements Behavioral Cloning to make the policy learn from expert demonstrations. It also has the code for validation
 
-train.py - Contains the code to read the data and run the policy on the environment and update the policy using Proximal Policy Optimization
-ppo.py - Neural Network having Actor and Critic heads with the Actor giving the output of the action and the critic estimating the value given the current state of the environment
+train.py - Contains the code to read the data and run the policy on the environment and update the policy using Proximal Policy Optimization <br />
+ppo.py - Neural Network having Actor and Critic heads with the Actor giving the output of the action and the critic estimating the value given the current state of the environment <br/>
 env.py - Contains the code to implement the environment for the Gridworld
-
-demo.ipynb - Contains the code to plot the graphs
-
-
-
-demo.ipynb - Contains the code to plot the logs
 
 ## Code Layout
 
