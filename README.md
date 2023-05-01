@@ -38,15 +38,15 @@ args.num_envs -> Number of environments to rollouts (in case of vectorized envs)
 
 ## Hyperparameters
 
-lr = 1e-5
-gamma = 0.99
-Total Timesteps = 512000 -> data_easy; 1536000 -> data_medium; 3072000 -> data
-args.H = 128
-args.num_envs = 1
-episodes = 50 -> data_easy; 150 -> data_medium; 300 -> data
-mini_batch_size = 80 
-num_updates = 80
-clip_epsilon = 0.2
-c1 = 0.5
-c2 = 0.01
+lr = 1e-5 <br/>
+gamma = 0.99 <br/>
+Total Timesteps = 512000 -> data_easy; 1536000 -> data_medium; 3072000 -> data <br/>
+args.H = 128 <br/>
+args.num_envs = 1 <br/>
+episodes = 50 -> data_easy; 150 -> data_medium; 300 -> data <br/>
+mini_batch_size = 80  <br/>
+num_updates = 80 <br/>
+clip_epsilon = 0.2 <br/>
+c1 = 0.5 <br/>
+c2 = 0.01 <br/>
 num_epochs = 3 per update
