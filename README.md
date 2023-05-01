@@ -14,10 +14,10 @@ To run the program
 $ python train.py --args
 ```
 
-train_bc.py - This contains the LATEST CODE for running the PPO Algorithm.  It Implements Behavioral Cloning to make the policy learn from expert demonstrations. It also has the code for validation
+train_bc.py - This contains the LATEST CODE for running the PPO Algorithm. It Implements Behavioral Cloning to make the policy learn from expert demonstrations. It also has the code for validation
 
-train.py - Contains the code to read the data and run the policy on the environment and update the policy using Proximal Policy Optimization <br />
-ppo.py - Neural Network having Actor and Critic heads with the Actor giving the output of the action and the critic estimating the value given the current state of the environment <br/>
+train.py - Contains the code to read the data and run the policy on the environment and update the policy using Proximal Policy Optimization  <br/><br/>
+ppo.py - Neural Network having Actor and Critic heads with the Actor giving the output of the action and the critic estimating the value given the current state of the environment <br/><br/>
 env.py - Contains the code to implement the environment for the Gridworld
 
 ## Code Layout
@@ -26,9 +26,9 @@ Initial Agent does policy rollouts
 This generates rollout data which is then used to train the policy
 The policy is then updated and the process is repeated
 
-args.H -> Number of steps to rollouts
-args.num_envs -> Number of environments to rollouts (in case of vectorized envs)
-(H * num_envs) -> Number of data points for training
+args.H -> Number of steps to rollouts <br/>
+args.num_envs -> Number of environments to rollouts (in case of vectorized envs) <br/>
+(H * num_envs) -> Number of data points for training <br/>
 
 ## Hyperparameters
 
